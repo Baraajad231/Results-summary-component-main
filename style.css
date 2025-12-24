@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk";
+  background-color: hsl(221, 100%, 96%);
+}
+
+.container {
+  width: 550px;
+  margin: 100px auto;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.part-1 {
+  border: 2px solid;
+  border-radius: 20px;
+  flex: 1;
+
+  color: white;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 40px;
+  text-align: center;
+}
+
+.part-1-title,
+.part-2-title {
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.score-circle {
+  position: relative;
+  background: radial-gradient(
+    circle at center,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+
+  width: 130px;
+  height: 130px;
+
+  margin: 20px auto;
+}
+
+.score {
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+}
+
+.persent {
+  opacity: 0.6;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.comment {
+  opacity: 0.7;
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.part-2 {
+  border-radius: 20px;
+  flex: 1;
+
+  padding: 30px;
+  text-align: left;
+  position: relative;
+}
+.line-1,
+.line-2,
+.line-3,
+.line-4 {
+  border-radius: 10px;
+
+  margin: 15px 0;
+  padding: 7px 10px;
+}
+
+.line-1 {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 100%, 67%, 0.1);
+}
+.line-2 {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+.line-3 {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 37%, 0.1);
+}
+.line-4 {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
+.part-2 div img {
+  height: 17px;
+  width: 17px;
+}
+.part-2 div p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.per-1,
+.per-2 {
+  margin-left: 55px;
+  color: black;
+}
+
+.per-3,
+.per-4 {
+  margin-left: 65px;
+  color: black;
+}
+
+.persentage {
+  color: black;
+  opacity: 0.5;
+}
+.continue-btn {
+  font-family: "Hanken Grotesk";
+  margin-top: 20px;
+  padding: 10px 80px;
+  border-radius: 12px;
+  border-style: none;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  transition: background 0.3s;
+}
+
+.continue-btn:hover {
+  cursor: pointer;
+  background-color: hsl(224, 30%, 27%, 0.7);
+}
